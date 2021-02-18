@@ -2,22 +2,22 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="./css/header_footer.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/header_footer.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Portfolio</title>
 	<script> 
 			var passlog = 1111;
 			login = prompt('Введите Ваш логин:','');
 			if (login == null) { 
-			alert('Авторизация отменена!', top.location.href="/index.php"); 
+			alert('Авторизация отменена!', top.location.href="index.php"); 
 			}
 			else if(login == passlog){
 				alert('Успешная авторизация'); 
 			}
 			else if (login == '') { 
-			alert('Авторизация с пустым логином невозможна!', top.location.href="/index.php"); 
+			alert('Авторизация с пустым логином невозможна!', top.location.href="index.php"); 
 			}
-			else alert('Неверный логин!', top.location.href="/index.php");
+			else alert('Неверный логин!', top.location.href="index.php");
 		
 	</script>
 </head>
@@ -29,8 +29,8 @@
   <ul>
     <li><a>MENU</a>
       <ul class="dropdown">
-        <li><a href="./html/gallery.html">Фотогалерея</a></li>
-        <li><a href="./html/resume.html">Резюме</a></li>
+        <li><a href="html/gallery.html">Фотогалерея</a></li>
+        <li><a href="html/resume.html">Резюме</a></li>
       </ul>
     </li>
   </ul>
@@ -38,7 +38,7 @@
     
 </header>
 <div id="div_cont">
-   <div><img alt="my photo" src="./css/img/ya1.jpg"></div>
+   <div><img alt="my photo" src="css/img/ya1.jpg"></div>
    <div id="slider"><input id="button_mys" type="button" value="О СЕБЕ" onclick="hideshow();"/></div>
    <div id="other">
     <p>Я, Трупкина Светлана Александровна, родилась 22 ноября 1998 года в городе Харькове. </p>
